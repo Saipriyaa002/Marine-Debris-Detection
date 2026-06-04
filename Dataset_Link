@@ -1,0 +1,27 @@
+MARIDA Dataset (Marine Debris Archive)
+
+This project uses the MARIDA dataset for marine debris detection and segmentation from Sentinel-2 multispectral satellite imagery.
+
+Dataset Information:
+- Name: MARIDA (Marine Debris Archive)
+- Source: Helmholtz-Zentrum Hereon
+- Satellite: Sentinel-2
+- Task: Marine Debris Segmentation and Classification
+
+Official Dataset Website:
+https://marida.hereon.de/
+
+Dataset Paper:
+https://www.nature.com/articles/s41597-022-01330-2
+
+Instructions:
+1. Download the MARIDA dataset from the official website.
+2. Extract the dataset contents.
+3. Upload the dataset to your Google Drive.
+4. Update the dataset path in the notebooks:
+
+BASE_PATH = "/content/drive/MyDrive/MARIDA"
+
+Note:
+The dataset is not included in this repository due to its large size and licensing restrictions.
+Please obtain the dataset directly from the official source.
